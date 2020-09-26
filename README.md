@@ -114,6 +114,7 @@
 
 - [@StevenBlack](https://github.com/StevenBlack); [#1](https://github.com/usagi/rust-memory-container-cs/issues/1)
 - [@theInkSquid](https://github.com/theInkSquid); [#2](https://github.com/usagi/rust-memory-container-cs/issues/2#issuecomment-678677444)
+- [@juhdanad](https://github.com/juhdanad); [#6](https://github.com/usagi/rust-memory-container-cs/issues/6)
 - And, dear reddit users who discussed the cheat-sheet.
 
 ## Author 🐇
@@ -124,8 +125,8 @@
 
 ### Workflow: How to export the variants?
 
-1. rust-memory-container-cs.png.pptx -> PowerPoint -> rust-memory-container-cs.png.svg (1280x720)
-2. rust-memory-container-cs.png.svg  -> InkScape   -> rust-memory-container-cs.png.png (3840x2160-dark-back)
+1. rust-memory-container-cs.pptx -> PowerPoint -> rust-memory-container-cs.svg (1280x720)
+2. rust-memory-container-cs.svg  -> InkScape   -> rust-memory-container-cs.png (3840x2160-dark-back)
 3. .png(3840x2160-dark-back) -> ImageMagick: `./generate-variants.sh`
     1. -> `{RESOLUTION}`/rust-memory-container-cs-`{RESOLUTION}`-`${SUFFIX}`.png
         - `${RESOLUTION}` = [ 3840x2160, 1920x1080, 1280x720 ]
